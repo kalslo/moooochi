@@ -104,6 +104,21 @@ capabilities = {
     }
 }
 
+# Add Slalom Build capability (urgent client demand)
+capabilities["Slalom Build"] = {
+    "description": "End-to-end product development: strategy, UX, and agile delivery",
+    "practice_area": "Technology",
+    "skill_levels": ["Emerging", "Proficient", "Advanced", "Expert"],
+    "certifications": [
+        "Certified Product Manager",
+        "Scrum Product Owner",
+        "Agile Practitioner"
+    ],
+    "industry_verticals": ["Consumer Products", "Fintech", "Healthtech"],
+    "capacity": 30,
+    "consultants": []
+}
+
 
 @app.get("/")
 def root():
